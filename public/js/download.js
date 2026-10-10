@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const mediafireId = urlParams.get('a');
 
   if (!mediafireId) {
-    showState(p2);
+    window.location.replace('/generator');
     return;
   }
 
